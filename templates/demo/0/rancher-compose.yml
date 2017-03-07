@@ -27,7 +27,7 @@ services:
     scale: $scale_number
     start_on_create: true
   lb:
-    scale: 1
+    scale: 2
     start_on_create: true
     lb_config:
       certs: []
